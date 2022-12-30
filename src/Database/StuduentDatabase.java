@@ -18,7 +18,8 @@ public class StuduentDatabase {
             students[n] = new Student();
             students[n].enroll();
             students[n].payTuitionFee();
-        }
+
+            }
 
         for (int i = 0; i <numberOfStudents; i++) {
             String info = students[i].showInfo();
